@@ -1,0 +1,49 @@
+
+
+<style>
+
+    html {
+        font-size: 13px;
+    }
+
+    .row {
+        padding: 0.5rem 1rem;
+        margin: 1rem;
+        border: solid black 1px;
+    }
+
+    .row:nth-of-type(3n+1) {
+        page-break-before: always;
+    }
+
+</style>
+
+
+<div class="row">
+
+    <h3>@Name</h3>
+
+    <p>
+        @Participant
+    </p>
+
+    <p>
+        <strong>Zeitraum:</strong> @Zeitslots
+    </p>
+
+    <p>
+        <strong>Zielgruppe:</strong> @Zielgruppen<br />
+        <strong>Veranstalter:</strong> @Veranstalter
+    </p>
+
+    <p>
+        @Kurzbeschreibung <br />
+        @Beschreibung
+    </p>
+
+    <p>
+        <strong>Treffpunkt:</strong> @Treffpunkt
+    </p>
+
+</div>
+
